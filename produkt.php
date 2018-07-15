@@ -12,17 +12,13 @@ class Produkt
         $this->cena = $cena;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getCena()
     {
         return $this->cena;
     }
 
-    /**
-     * @return mixed
-     */
+
     public function getNazwa()
     {
         return $this->nazwa;
