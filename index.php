@@ -8,3 +8,5 @@ $bombonierka = new Produkt('bombonierka','10');
 echo $jablko->getNazwa() ." kosztuje " . $jablko->getCena();
 echo "</br>";
 echo "a" . $bombonierka->getNazwa() . " kosztuje " . $bombonierka->getCena();
+
+
