@@ -6,11 +6,11 @@ $trudnaTablica = [
 ];
 
 echo "<pre>";
-foreach ($trudnaTablica as $imie=>$dane) {
-    echo $imie;
-    echo " ma ";
-    echo $dane['wiek'];
-
+foreach ($trudnaTablica as $imie=>$dane)
+    {
+        echo $imie;
+        echo " ma ";
+        echo $dane['wiek'];
 
     }
 
