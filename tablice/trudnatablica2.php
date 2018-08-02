@@ -6,16 +6,11 @@ $trudnaTablica = [
 ];
 
 
-foreach ($trudnaTablica as $imie=>$dane)
+
+//echo $trudnaTablica['bartek']['zainteresowania'][0];
+
+foreach ($trudnaTablica as $imie=>$zainteresowanie)
+
 {
-    echo $imie . "</br>";
-    echo $dane['zawod'] . '</br>';
-
-        foreach ($trudnaTablica['zainteresowania'] as $zainteresowanie)
-        {
-            echo $zainteresowanie;
-        }
-
-
+    echo $imie['bartek']['zainteresowania'];
 }
-
