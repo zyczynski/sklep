@@ -34,6 +34,16 @@ foreach ($trudnaTablica as $imie=>$dane)
   }
 }
 
+echo "</br>";
+echo "</br>";
+
+
+    foreach ($trudnaTablica['bartek']['zainteresowania'] as $zainteresowania=>$zainteresowanie)
+    {
+        echo $zainteresowanie . '</br>';
+    }
+
+
 
 
 
